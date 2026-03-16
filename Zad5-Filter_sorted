@@ -9,10 +9,3 @@ urzadzenia = [
     {"host": "Router_D", "status": "online", "cpu_usage": 92, "uptime_dni": 15},
     {"host": "Router_E", "status": "online", "cpu_usage": 15, "uptime_dni": 200}
 ]
-
-aktywne = list(filter(lambda u: u["status"] == "online", urzadzenia))
-
-raport = sorted(aktywne, key=lambda u: u["cpu_usage"], reverse=True)
-
-for r in raport:
-    print(r)
