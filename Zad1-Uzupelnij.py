@@ -18,12 +18,12 @@ print(iloczyn)
 """3.Uzupełnij wywołanie funkcji sorted, przekazując odpowiednią listę oraz tworząc wyrażenie lambda,
  które posortuje słowa według ich długości"""
 
-jezyki = ["Kapusta", "Kawa", "Fajerwerki", "Rurka"]
+slowa = ["Kapusta", "Kawa", "Fajerwerki", "Rurka"]
 
 slowa_posortowane = sorted(___, key=___)
 
 print(slowa_posortowane)
-
+#Oczekiwany wynik to ['Kawa', 'Rurka', 'Kapusta', 'Fajerwerki']
 
 """Napisz funkcję, która rekurencyjnie oblicza sumę
  liczb od podanego n w dół do 0 (np. dla n=3 będzie to 3+2+1). """
@@ -32,7 +32,6 @@ def suma_rekurencyjna(n):
         return 0
 
     return n + ___
-
 
 print(suma_rekurencyjna(5))
 # Oczekiwany wynik: 15 (bo 5 + 4 + 3 + 2 + 1 + 0)
