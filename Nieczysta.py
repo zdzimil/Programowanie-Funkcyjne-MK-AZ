@@ -1,4 +1,4 @@
-
+"""Twoim zadaniem jest przekształcenie tego kodu w poprawną czystą funkcje."""
 
 Taski = ["Iść na siłkę", "Zrobić obiad"]
 licznik_operacji = 2
