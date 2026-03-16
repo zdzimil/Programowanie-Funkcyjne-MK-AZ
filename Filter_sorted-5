@@ -1,4 +1,3 @@
-#Zadanie 1
 #1.	Filtrowanie: Wykorzystaj funkcję filter() oraz wyrażenie lambda, aby stworzyć nową listę zawierającą tylko te urządzenia, których status to "online".
 #2.	Sortowanie: Wykorzystaj funkcję sorted() na przefiltrowanej liście, aby uporządkować urządzenia według zużycia procesora (cpu_usage) w kolejności malejącej.
 #3.	Wyświetlanie: Wypisz wynikową listę w konsoli.
