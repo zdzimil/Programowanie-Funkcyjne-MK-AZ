@@ -18,7 +18,7 @@ pakiety_raw = {
 # header, data, port, active = item[1] pozwala na rozpakowanie wartości z krotki dla łatwiejszego dostępu.
 
 
-# 2. Obliczanie Narzutu 
+# 2. Obliczanie Narzutu (Na podstawie otrzymanej listy z pierwszego podpunktu) 
 # Zdefiniuj wzór na narzut protokołu (overhead) jako stosunek nagłówka do całkowitego rozmiaru pakietu:
 # Overhead = rozmiar_naglowka/(rozmiar_naglowka + rozmiar_danych)
 # Użyj map() i lambdy, aby stworzyć nową listę krotek zawierających (id_pakietu, obliczony_overhead).
